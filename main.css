@@ -1,0 +1,139 @@
+@import url(http://www.misterbrightsidewoodfiredpizza.com.au/templates/rt_galatea/custom/images/assets/images/pizza1.jpg);
+* { box-sizing: border-box; }
+h1{
+	color:rgb(21,219,117);
+}
+
+body{
+	background-image:url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/143914/580/386/m1/fpnw/wm0/seamless-.jpg?1405489670&s=4f0d5f24ab6d37a170edc03b2ce5217a);
+	display:inline-block;
+	background-repeat:repeat;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding:10px 50px;
+}
+
+nav > ul > li:hover{background-color:rgb(121,185,211);}
+
+nav > ul > li>ul>li:hover{background-color:rgb(185,211,121);}
+
+nav > ul > li > ul {
+  background-color: rgb(121, 185, 211);
+  list-style: none;
+  padding: 0;
+  position:absolute;
+  display:none;
+}
+nav > ul > li > ul > li:hover > ul{display:block;}
+
+
+nav > ul > li:hover > ul{display:block;}
+
+
+nav > ul > li>ul>li>ul>li:hover{background-color:rgb(90,21,121);}
+
+nav > ul > li > ul > li > ul {
+  background-color: rgb(40, 372, 211);
+  list-style: none;
+  padding: 20;
+  position:absolute;
+  display:none;
+}
+
+nav > ul > li:hover > ul{display:inline-block;}
+
+header{
+	margin:0;
+	padding:0;
+	display:inline-block;
+	width:100%;
+}
+img{
+	padding:0;
+	margin:0;
+	display:inline-block;
+}
+
+a{
+	text-decoration:none;
+}
+
+nav{
+	background-color:red;
+	font-size:24px;
+}
+
+body>ul>li>h1{
+	text-align:center;
+}
+
+body>ul>li>img{
+	display:block;
+}
+
+.center{
+	display:inline-block;
+	text-align:center;
+
+}
+
+body{
+	padding-left:-20px;
+}
+
+body>ul>li:hover{background-color:yellow;}
+
+body>ul>li{
+	display:inline-block;
+	width:25%;
+}
+
+a {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{color:blue;}
+
+body>ul>li>a>img{
+	width:100%;
+}
+
+.food{
+	dislplay:inline-block;
+}
+
+.contact {
+	border-top: 2px dashed red;
+	border-bottom: 2px dashed red;
+	width: 1050px;
+	padding-left:30px;
+	padding-top:10px;
+}
+footer>ul>li{
+	list-style-type:none;
+	display:inline-block;
+}
+
+.right{
+	border-right:2px solid black;
+}
+
+footer{
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	width:1050px;
+}
+
+p{
+	text-align:left;
+	color:green;
+}
+h2{color:magenta;}
+.yayeet{text-align:left;}
+
+footer>ul{padding-left:30px;}
